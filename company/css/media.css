@@ -1,0 +1,227 @@
+@media (max-width: 1140px) {
+    .services__items {
+        display: block;
+    }
+    .services__item {
+        margin: 30px auto;
+        max-width: 80%;
+        padding-bottom: 24px;
+        min-height: 320px;
+    }
+    .services__item-btn {
+        position: static;
+        margin-top: 50px;
+    }
+    .about__inner {
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form__inner {
+        background-image: none;
+    }
+    .form__content-box {
+        margin: 0 auto;
+    }
+    .news__inner {
+        display: block;
+    }
+    .news__slider {
+        margin: 0 auto 120px;
+    }
+    .news__blog-inner {
+        display: flex;
+        margin: 0 auto;
+        max-width: 555px;
+        justify-content: space-between;
+    }
+    .services__title-box, .form__title-box, .news__title-box {
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 0;
+    }
+    .services__top, .news__top {
+        display: block;
+    }
+    .services__btn, .news__btn {
+        text-align: center;
+    }
+    .news__slider {
+        max-width: 100%;
+        height: auto;
+    }
+    .news__blog {
+        width: 100%;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .news__blog-image {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 900px) {
+    .services__item {
+        max-width: 100%;
+    }
+    .form__box-inner {
+        display: block;
+        text-align: center;
+    }
+    .form__left {
+        margin: 0 auto 30px;
+        max-width: 900px;
+    }
+    .form__right {
+        margin: 0 auto;
+    }
+    .form__right .default__btn {
+        float: none;
+    }
+    .form__title {
+        line-height: 32px;
+    }
+    .advantages__items {
+        display: block;
+    }
+    .advantages__item {
+        max-width: 555px;
+        margin: 0 auto 60px;
+    }
+    .form__right {
+        max-width: 900px;
+    }
+    .form__box-inner input {
+        text-align: center;
+    }
+    .services__title-box, .form__title-box, .news__title-box {
+        max-width: 60%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .services__title-box:before,
+    .form__title-box:before, 
+    .news__title-box:before {
+        width: 0;
+    }
+}
+@media (max-width: 800px) {
+    .slider .slick-btn {
+        display: none !important;
+    }
+    .footer__content-inner {
+        display: block;
+    }
+    .footer__info {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer__map {
+        margin: 30px auto 0;
+    }
+    .footer__list a {
+        padding-right: 34px;
+    }
+}
+@media (max-width: 700px) {
+    .header__btn {
+        float: none;
+        max-width: 270px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header__contacts {
+        text-align: center;
+    }
+
+    .header__phone {
+        padding-left: 40px;
+    }
+
+    .header__phone:before {
+        left: 20px;
+    }
+
+    .icon-bars {
+        font-size: 24px;
+        display: block;
+    }
+
+    .menu ul {
+        z-index: 20;
+        margin-top: 26px;
+        display: none;
+        position: absolute;
+        right: 15px;
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .menu a {
+        border: none;
+        border-bottom: 3px solid #303030;
+        text-align: right;
+        display: block;
+        background-color: #ffc222;
+    }
+    .menu li:last-child a{
+        border: none;
+    }
+    .menu a:hover {
+        border: none;
+        border-bottom: 3px solid #303030;
+    }
+   
+    .menu li + li {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .news__blog {
+        display: block;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    .news__blog-image {
+        margin-right: 0;
+    }
+    .news__blog {
+        width: 263px;
+    }
+}
+@media (max-width: 450px) {
+    .services__item {
+        max-width: 100%;
+    }
+    .services__title-box, .form__title-box, .news__title-box {
+        max-width: 100%;
+    }
+}
+@media (max-width: 420px) {
+    .slider__title {
+        font-size: 28px;
+    }
+    .slider__text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 370px) {
+    .services__item-link {
+        display: block;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .news__slider-content {
+        padding-left: 20px;
+    }
+}
+@media (min-width: 700px) {
+    .menu ul {
+        display: block !important;
+    }
+}
