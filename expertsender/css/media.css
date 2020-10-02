@@ -1,0 +1,18 @@
+@media (max-width:527px) {
+    .content__items {
+        justify-content : center;
+    }
+
+    .content__item-btn a {
+        margin: 0 auto 23px !important;
+    }
+}
+@media (max-width:340px) {
+    .header__top {
+        display: block;
+        text-align: center;
+    }
+    .header__logo {
+        margin-bottom: 20px;
+    }
+}
