@@ -150,31 +150,38 @@
 
     .menu ul {
         z-index: 20;
-        margin-top: 26px;
+        margin-top: 25px;
         display: none;
         position: absolute;
-        right: 15px;
-        max-width: 150px;
+        right: 0;
+        left: 0;
         width: 100%;
     }
 
     .menu li {
         display: block;
+        background-color: #ffc222;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: right;
     }
-
+    
     .menu a {
         border: none;
-        border-bottom: 3px solid #303030;
-        text-align: right;
-        display: block;
-        background-color: #ffc222;
+        position: relative;
+        padding-left: 30px;
     }
-    .menu li:last-child a{
-        border: none;
+    .menu a:before {
+        content: "\f104";
+        font-family: "icomoon";
+        cursor: pointer;
+        font-size: 16px;
+        color: #ffffff;
+        position: absolute;
+        left: 0;
     }
     .menu a:hover {
         border: none;
-        border-bottom: 3px solid #303030;
     }
    
     .menu li + li {
